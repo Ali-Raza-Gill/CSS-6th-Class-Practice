@@ -27,15 +27,46 @@ h4{
     justify-content: space-evenly   ;
 }
 
-@media(max-width:376px){
+@media(max-width:375px){
     #pets{
         flex-wrap: wrap;
+        background-color: rgb(199, 207, 255);
+        border-radius: 25px;
     }
 
 }
 @media(min-width:376px) and (max-width:576px){
     #pets{
         background-color: #efd8d8;
+        border-radius: 25px;
+        
+    }
+}
+@media(min-width:576px) and (max-width:991px){
+    #pets{
+        background-color: #eff48d;
+        border-radius: 25px;
+        
+    }
+}
+
+@media(min-width:991px) and (max-width:1200px){
+    #pets{
+        background-color: #8df49c;
+        border-radius: 25px;
+        
+    }
+}
+@media(min-width:1200px) and (max-width:1400px){
+    #pets{
+        background-color: #8df4eb;
+        border-radius: 25px;
+        
+    }
+}
+@media(min-width:1400px){
+    #pets{
+        background-color: #f48def;
         border-radius: 25px;
         
     }
