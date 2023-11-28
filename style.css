@@ -1,5 +1,5 @@
 h2{
-    color: rgb(255, 136, 0);
+    color: rgb(226, 125, 9);
 }
 span{
     color: rgb(165, 91, 42);
@@ -44,7 +44,7 @@ h4{
 }
 @media(min-width:576px) and (max-width:991px){
     #pets{
-        background-color: #eff48d;
+        background-color: #e0e582;
         border-radius: 25px;
         
     }
